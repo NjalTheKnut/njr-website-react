@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>Neal's Page</title>
+<link rel="shorcut icon" href="https://njaltheknut.github.io/NJR/Web/Portrait.png">
+<link rel="stylesheet" href="NJR.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="NJR.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 100){
+            $('#scroll').fadeIn();
+        }else{
+            $('#scroll').fadeOut();
+        }
+    });
+    $('#scroll').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
+});
+</script>
+</head>
+<body class="main">
+
+<!-- BackToTop Button -->
+<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+
+<!-- ++++++++++++ Page Content Goes Here ++++++++++++ -->
+<br/>
+<hr class="blue"/>
+<br/>
+<img class="portrait" src="https://njaltheknut.github.io/NJR/Web/Portrait.png" alt="Could not load Neal's glorious visage!"/>
+<article class="text">
+<section>
+<header class="heading"><h1 class="left">Neal J. Robison</h1></header>
+<p class="left">
+I am a graduate of Southern Virginia University with a Bachelor's Degree in Computer Science and a minor in Business.  I am analytical, inquisitive and skilled at learning new interfaces.  I have a very rententive memory with a talent for discovering patterns and connections associated with information presented for analysis.
+</p>
+</section>
+<br/>
+<hr class="blue"/>
+<br/>
+<section>
+<header><h1 class="heading">Profiles</h1></header>
+<div class="centered"><p class="text"><a href="https://www.sololearn.com/Profile/7239257" target="_blank">Neal's SoloLearn Profile</a></p></div>
+<div class="centered"><p class="text">Neal's Codewars Profile<br/>(Click Badge Below)<br/><br/><a href="https://www.codewars.com/users/NjalTheKnut" target="_blank">
+<img class="linkImg" src="https://www.codewars.com/users/NjalTheKnut/badges/large" alt="Could not Load CodeWars Badge!"/></a></p></div>
+</section>
+<br/>
+<hr class="blue"/>
+<br/>
+<section>
+<header><h1 class="heading">Certificates</h1></header>
+<table class="slider">
+	<tr class="slider">
+		<td width="25%"><button id="prevButton" class="round" onclick="prev()">Prev</button></td>
+		<td width="75%"><img id="slider" class="pics" src="https://njaltheknut.github.io/NJR/Web/CompTIA_Security+_ce_certificate.jpg" alt="Neal's certificates are too powerful to display right now!" /></td>
+		<td width="25%"><button id="nextButton" class="round" onclick="next()">Next</button></td>
+	</tr>
+<table>
+</section>
+<br/>
+<hr class="blue"/>
+<br/>
+<section>
+<header><h1 class="heading">Neal's Skills</h1></header>
+<div class="centered"><ul class="square">
+	<li><a href="CompTIA_Security+_ce_certificate.pdf" target="_blank">CompTIA Security+ CE</a></li>
+	<li><a href="cert-1014-7239257.pdf" target="_blank">HTML</a></li>
+	<li><a href="cert-1023-7239257.pdf" target="_blank">CSS</a></li>
+	<li><a href="cert-1024-7239257.pdf" target="_blank">JavaScript</a></li>
+	<li><a href="cert-1051-7239257.pdf" target="_blank">C++</a></li>
+	<li><a href="cert-1059-7239257.pdf" target="_blank">PHP</a></li>
+	<li><a href="cert-1060-7239257.pdf" target="_blank">SQL</a></li>
+	<li><a href="cert-1068-7239257.pdf" target="_blank">Java</a></li>
+	<li><a href="cert-1073-7239257.pdf" target="_blank">Python</a></li>
+	<li><a href="cert-1080-7239257.pdf" target="_blank">C#</a></li>
+	<li><a href="cert-1081-7239257.pdf" target="_blank">Ruby</a></li>
+	<!-- <li><a href=".pdf" target="_blank"></a></li> -->
+</ul>
+</div>
+</section>
+<br/>
+<hr class="blue"/>
+<br/>
+</article>
+</body>
+</html>
