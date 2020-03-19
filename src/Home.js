@@ -28,7 +28,7 @@ class Home extends React.Component {
                 <br/>
                 <hr className="blue"/>
                 <br/>
-                <img className="portrait" src="https://njaltheknut.github.io/NJR/Web/Portrait.png" alt="Could not load Neal's glorious visage!"/>
+                {/* <img className="portrait" src="https://njaltheknut.github.io/NJR/Web/Portrait.png" alt="Could not load Neal's glorious visage!"/> */}
                 <article className="text">
                 <section>
                 <header className="heading"><h1 className="left">Neal J. Robison</h1></header>
