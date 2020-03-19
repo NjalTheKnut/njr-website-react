@@ -62,7 +62,7 @@ class Home extends React.Component {
                     thumbnailsWidth="920px"
                     thumbnailsHeight="12vw"
                     indicators 
-                    thumbnails 
+                    //thumbnails 
                     fixedImagesHeight
                     infinite
                 />
