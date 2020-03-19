@@ -31,8 +31,8 @@ class Home extends React.Component {
                 {/* <img className="portrait" src="https://njaltheknut.github.io/NJR/Web/Portrait.png" alt="Could not load Neal's glorious visage!"/> */}
                 <article className="text">
                 <section>
-                <header className="heading"><h1 className="left">Neal J. Robison</h1></header>
-                <p className="left">
+                <header className="heading"><h1 className="centered">Neal J. Robison</h1></header>
+                <p className="centered">
                 A Software Engineer, Web Developer and Bachelor of Computer Science.  
                 <br/>Analytical, inquisitive and skilled at learning new languages and technologies.  
                 <br/>Has a very rententive memory with a talent for discovering patterns and connections.
