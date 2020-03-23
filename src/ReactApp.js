@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+//import logo from './Triskel-Logo.svg';
 import './App.css';
 
 class ReactApp extends React.Component {
@@ -16,6 +17,8 @@ class ReactApp extends React.Component {
             <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <p>
+                <br />
+                <br />
                 Neal was Here!
                 <br />Merged my old static HTML/CSS/JavaScript page with this Boilerplate React App!
                 <br />
