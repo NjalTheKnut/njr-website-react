@@ -45,6 +45,7 @@ class Home extends React.Component {
                 <header><h1 className="heading">Profiles</h1></header>
                 <div className="centered"><p className="text"><a style={noLineStyle} href="https://www.linkedin.com/in/neal-robison-b241b055/" target="_blank" rel="noopener noreferrer">Neal Robison | LinkedIn</a></p></div>
                 <div className="centered"><p className="text"><a style={noLineStyle} href="https://www.sololearn.com/Profile/7239257" target="_blank" rel="noopener noreferrer">Neal Robison | SoloLearn</a></p></div>
+                <div className="centered"><p className="text"><a style={noLineStyle} href="https://github.com/NjalTheKnut" target="_blank" rel="noopener noreferrer">Neal Robison | GitHub</a></p></div>
                 <div className="centered"><p className="text">Neal Robison | Codewars<br/>(Click Badge Below)<br/><a className="none" href="https://www.codewars.com/users/NjalTheKnut" target="_blank" rel="noopener noreferrer">
                 <img className="linkImg" src="https://www.codewars.com/users/NjalTheKnut/badges/large" alt="Could not Load CodeWars Badge!"/></a></p></div>
                 </section>
