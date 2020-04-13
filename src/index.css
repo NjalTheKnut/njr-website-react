@@ -110,10 +110,10 @@ ul.none{
 	padding-left:25%;
 }
 /*Links*/
-a:visited{
+/* a:visited{
 	color:#aaaaaa;
-}
-a:link{
+} */
+a:link, a:visited{
 	color:white;
 	font-variant:small-caps;
 	font-weight:200;
