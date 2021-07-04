@@ -6,7 +6,6 @@ import './index.css';
 
 const noLineStyle={textDecoration: "none"};
 const sliderImages = [
-    'resources/CompTIA_Security+_ce_certificate.jpg',
     'resources/cert-1014-7239257.jpg',
     'resources/cert-1023-7239257.jpg',
     'resources/cert-1024-7239257.jpg',
@@ -75,7 +74,6 @@ class Home extends React.Component {
                 <header><h1 className="heading">Neal's Skills</h1></header>
                 
                 <div className="centered"><ul className="square">
-                    <li><a style={noLineStyle} href="resources/CompTIA_Security+_ce_certificate.pdf" target="_blank" rel="noopener noreferrer">CompTIA Security+ CE</a></li>
                     <li><a style={noLineStyle} href="resources/cert-1014-7239257.pdf" target="_blank" rel="noopener noreferrer">HTML</a></li>
                     <li><a style={noLineStyle} href="resources/cert-1023-7239257.pdf" target="_blank" rel="noopener noreferrer">CSS</a></li>
                     <li><a style={noLineStyle} href="resources/cert-1024-7239257.pdf" target="_blank" rel="noopener noreferrer">JavaScript</a></li>

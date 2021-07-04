@@ -1,6 +1,5 @@
 window.onload = function(){
 	var images = [
-		'https://njaltheknut.github.io/NJR/Web/CompTIA_Security+_ce_certificate.jpg',
 		'https://njaltheknut.github.io/NJR/Web/cert-1014-7239257.jpg',
 		'https://njaltheknut.github.io/NJR/Web/cert-1023-7239257.jpg',
 		'https://njaltheknut.github.io/NJR/Web/cert-1024-7239257.jpg',
