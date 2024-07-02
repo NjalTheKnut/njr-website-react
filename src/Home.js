@@ -47,8 +47,8 @@ class Home extends React.Component {
                 <div className="centered"><p className="text"><a style={noLineStyle} href="https://github.com/NjalTheKnut" target="_blank" rel="noopener noreferrer">Neal Robison | GitHub</a></p></div>
                 <div className="centered"><p className="text">Neal Robison | Codewars<br/>(Click Badge Below)<br/><a className="none" href="https://www.codewars.com/users/NjalTheKnut" target="_blank" rel="noopener noreferrer">
                 <img className="linkImg" src="https://www.codewars.com/users/NjalTheKnut/badges/large" alt="Could not Load CodeWars Badge!"/></a></p></div>
-                <div class="centered"><p class="text">Ko-Fi Page<br/>(Click Badge Below)<br/><br/><a href="https://ko-fi.com/njaltheknut18327" target="_blank">
-                <img class="img" src="https://storage.ko-fi.com/cdn/brandasset/kofi_bg_tag_white.png?" alt="Ko-Fi Badge"/></a></p></div>
+                <div classname="centered"><p classname="text">Ko-Fi Page<br/>(Click Badge Below)<br/><br/><a href="https://ko-fi.com/njaltheknut18327" target="_blank">
+                <img classname="linkImg" src="https://storage.ko-fi.com/cdn/brandasset/kofi_bg_tag_white.png?" alt="Ko-Fi Badge"/></a></p></div>
                 </section>
                 <br/>
                 <hr className="blue"/>
