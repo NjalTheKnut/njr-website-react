@@ -11,7 +11,7 @@
     "react": "^19.2.4",
     "react-dom": "^16.13.0",
     "react-image-show": "^0.3.4",
-    "react-router": "^5.1.2",
+    "react-router": "^7.13.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^0.0.0",
     "react-scroll-up-button": "^1.6.4"
